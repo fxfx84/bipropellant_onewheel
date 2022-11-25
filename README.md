@@ -8,13 +8,16 @@ This repo, when mixed with the [protocol](https://github.com/bipropellant/biprop
 
 This firmware is a heavily modified version of [Niklas Fauth's hoverboard firmware](https://github.com/NiklasFauth/hoverboard-firmware-hack) which allows you to:
  * Use the hoverboard AS A HOVERBOARD
- * Control externaly the hoverboard with a reliable serial protocol.
+ * Ushe the hoverboard HW to build a onewheel
+
 
 This project was started by [btsimonh](https://github.com/btsimonh)
 
 It branched from Niklas Fauth's hoverboard firmware at this commit: [Aug 24, 2018](https://github.com/bipropellant/hoverboard-firmware/commit/28287b9acc53b68ff4dede0de61852188838da51)
 
 # Added:
+
+### ONEWHEEL variant to track down all the needed changes over the standard HOVERBOARD variant.
 
 ### Software serial:
 This allows you to use ANY GPIO pins (with modififcation) as serial.  Probably best to stay at 9600 baud, as the receive interrupt is serviced at 8x the bitrate.
